@@ -147,20 +147,20 @@ public class BaseCommonActions {
     }
     public void scrollToGivenDateAndSelect(String date, String month, String year) {
         int dateCount = DriverManager.getDriver().findElements(By.xpath("//android.widget.TextView[@text='" + month + " " + year + "']/following-sibling::\t\n" +
-                        "ni.a//following-sibling::ni.b/child::android.widget.CheckedTextView[@text='" + date + "']")).size();
+                        "*//following-sibling::*/child::android.widget.CheckedTextView[@text='" + date + "']")).size();
         if (dateCount > 0) {
             DriverManager.getDriver().findElement(By.xpath("//android.widget.TextView[@text='" + month + " " + year + "']/following-sibling::\t\n" +
-                    "ni.a//following-sibling::ni.b/child::android.widget.CheckedTextView[@text='" + date + "']")).isDisplayed();
+                    "*//following-sibling::*/child::android.widget.CheckedTextView[@text='" + date + "']")).isDisplayed();
             MobileElement mobileElement = (MobileElement) DriverManager.getDriver().findElement(By.xpath("//android.widget.TextView[@text='" + month + " " + year + "']/following-sibling::\t\n" +
-                    "ni.a//following-sibling::ni.b/child::android.widget.CheckedTextView[@text='" + date + "']"));
+                    "*//following-sibling::*/child::android.widget.CheckedTextView[@text='" + date + "']"));
             mobileElement.click();
         } else {
             try {
                 scrollDown();
                 DriverManager.getDriver().findElement(By.xpath("//android.widget.TextView[@text='" + month + " " + year + "']/following-sibling::\t\n" +
-                        "ni.a//following-sibling::ni.b/child::android.widget.CheckedTextView[@text='" + date + "']")).isDisplayed();
+                        "*//following-sibling::*/child::android.widget.CheckedTextView[@text='" + date + "']")).isDisplayed();
                 MobileElement mobileElement = (MobileElement) DriverManager.getDriver().findElement(By.xpath("//android.widget.TextView[@text='" + month + " " + year + "']/following-sibling::\t\n" +
-                        "ni.a//following-sibling::ni.b/child::android.widget.CheckedTextView[@text='" + date + "']"));
+                        "*//following-sibling::*/child::android.widget.CheckedTextView[@text='" + date + "']"));
                 mobileElement.click();
             } catch (ElementNotVisibleException envf) {
                 Reporter.log("Element is not visible even after scrolling");
