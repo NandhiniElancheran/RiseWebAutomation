@@ -1,4 +1,4 @@
-package com.almosafer.automation.screens;
+package com.almosafer.automation.elementRepositories;
 
 import com.almosafer.automation.base.BaseCommonActions;
 import com.almosafer.automation.base.DriverManager;

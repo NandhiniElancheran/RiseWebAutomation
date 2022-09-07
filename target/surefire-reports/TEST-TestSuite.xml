@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="105.956" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="42.616" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -18,7 +18,7 @@
     <property name="user.country" value="SA"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib"/>
-    <property name="sun.java.command" value="/Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/surefire/surefirebooter6669863740577904817.jar /Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/surefire 2022-09-07T09-38-45_064-jvmRun1 surefire7772113502666109594tmp surefire_0907468530823222203tmp"/>
+    <property name="sun.java.command" value="/Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/surefire/surefirebooter5990089953369061850.jar /Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/surefire 2022-09-07T10-27-08_151-jvmRun1 surefire2975098666701054764tmp surefire_04892570324323800213tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="surefire.test.class.path" value="/Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/test-classes:/Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/classes:/Users/nandhini/.m2/repository/io/appium/java-client/7.5.0/java-client-7.5.0.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/Users/nandhini/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/Users/nandhini/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/nandhini/.m2/repository/com/google/guava/guava/25.0-jre/guava-25.0-jre.jar:/Users/nandhini/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/nandhini/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/nandhini/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/nandhini/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/nandhini/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/Users/nandhini/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/Users/nandhini/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/Users/nandhini/.m2/repository/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar:/Users/nandhini/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/nandhini/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/nandhini/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/nandhini/.m2/repository/cglib/cglib/3.3.0/cglib-3.3.0.jar:/Users/nandhini/.m2/repository/org/ow2/asm/asm/7.1/asm-7.1.jar:/Users/nandhini/.m2/repository/commons-validator/commons-validator/1.7/commons-validator-1.7.jar:/Users/nandhini/.m2/repository/commons-beanutils/commons-beanutils/1.9.4/commons-beanutils-1.9.4.jar:/Users/nandhini/.m2/repository/commons-digester/commons-digester/2.1/commons-digester-2.1.jar:/Users/nandhini/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/nandhini/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/nandhini/.m2/repository/org/springframework/spring-context/5.3.4/spring-context-5.3.4.jar:/Users/nandhini/.m2/repository/org/springframework/spring-aop/5.3.4/spring-aop-5.3.4.jar:/Users/nandhini/.m2/repository/org/springframework/spring-beans/5.3.4/spring-beans-5.3.4.jar:/Users/nandhini/.m2/repository/org/springframework/spring-core/5.3.4/spring-core-5.3.4.jar:/Users/nandhini/.m2/repository/org/springframework/spring-jcl/5.3.4/spring-jcl-5.3.4.jar:/Users/nandhini/.m2/repository/org/springframework/spring-expression/5.3.4/spring-expression-5.3.4.jar:/Users/nandhini/.m2/repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar:/Users/nandhini/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/nandhini/.m2/repository/org/testng/testng/7.5/testng-7.5.jar:/Users/nandhini/.m2/repository/com/google/code/findbugs/jsr305/3.0.1/jsr305-3.0.1.jar:/Users/nandhini/.m2/repository/com/beust/jcommander/1.78/jcommander-1.78.jar:/Users/nandhini/.m2/repository/org/webjars/jquery/3.5.1/jquery-3.5.1.jar:/Users/nandhini/.m2/repository/com/aventstack/extentreports/5.0.9/extentreports-5.0.9.jar:/Users/nandhini/.m2/repository/io/reactivex/rxjava3/rxjava/3.0.4/rxjava-3.0.4.jar:/Users/nandhini/.m2/repository/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar:/Users/nandhini/.m2/repository/org/freemarker/freemarker/2.3.30/freemarker-2.3.30.jar:/Users/nandhini/.m2/repository/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar:/Users/nandhini/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/nandhini/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/nandhini/.m2/repository/org/json/json/20220320/json-20220320.jar:/Users/nandhini/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.13.3/jackson-databind-2.13.3.jar:/Users/nandhini/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.13.3/jackson-annotations-2.13.3.jar:/Users/nandhini/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.13.3/jackson-core-2.13.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/surefire/surefirebooter6669863740577904817.jar"/>
+    <property name="surefire.real.class.path" value="/Users/nandhini/Documents/Seera Assignment/Almosafer-Automation/target/surefire/surefirebooter5990089953369061850.jar"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_301.jdk/Contents/Home/jre/classes"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
@@ -62,201 +62,82 @@
     <property name="java.class.version" value="52.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="verifyAndSearchTheCheapestFlightForTravel" classname="com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel" time="85.781">
+  <testcase name="verifyAndSearchTheCheapestFlightForTravel" classname="com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel" time="25.057">
+    <failure message="An element could not be located on the page using the given search parameters.&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;Nandhinis-MBP&apos;, ip: &apos;fe80:0:0:0:1484:5efa:5dca:cc81%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.16&apos;, java.version: &apos;1.8.0_301&apos;&#10;Driver info: io.appium.java_client.android.AndroidDriver&#10;Capabilities {app: /Users/nandhini/Documents/S..., appActivity: com.travel.common.presentat..., appPackage: com.travel.almosafer, databaseEnabled: false, desired: {app: /Users/nandhini/Documents/S..., appActivity: com.travel.common.presentat..., appPackage: com.travel.almosafer, deviceName: Pixel 6, platformName: android, udid: 24201FDF60003D}, deviceApiLevel: 32, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 24201FDF60003D, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 24201FDF60003D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 124, takesScreenshot: true, udid: 24201FDF60003D, viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}&#10;Session ID: 77346171-0215-4b25-83c3-02fc9375d16f&#10;*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id=&apos;com.travel.almosafer:id/tvAirportCode&apos; and @text =&apos;KHI&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters.
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Nandhinis-MBP', ip: 'fe80:0:0:0:1484:5efa:5dca:cc81%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_301'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {app: /Users/nandhini/Documents/S..., appActivity: com.travel.common.presentat..., appPackage: com.travel.almosafer, databaseEnabled: false, desired: {app: /Users/nandhini/Documents/S..., appActivity: com.travel.common.presentat..., appPackage: com.travel.almosafer, deviceName: Pixel 6, platformName: android, udid: 24201FDF60003D}, deviceApiLevel: 32, deviceManufacturer: Google, deviceModel: Pixel 6, deviceName: 24201FDF60003D, deviceScreenDensity: 420, deviceScreenSize: 1080x2400, deviceUDID: 24201FDF60003D, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, pixelRatio: 2.625, platform: LINUX, platformName: Android, platformVersion: 12, statBarHeight: 124, takesScreenshot: true, udid: 24201FDF60003D, viewportRect: {height: 2116, left: 0, top: 124, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: 77346171-0215-4b25-83c3-02fc9375d16f
+*** Element info: {Using=xpath, value=//android.widget.TextView[@resource-id='com.travel.almosafer:id/tvAirportCode' and @text ='KHI']}
+	at com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel.verifyAndSearchTheCheapestFlightForTravel(TC_E2E_SearchTheCheapestFlightForTravel.java:54)
+]]></failure>
     <system-out><![CDATA[&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.22.3
 &amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:4723
 &amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
 &amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
 [debug] &amp#27;[35m[GENERIC]&amp#27;[39m Calling AppiumDriver.getStatus() with args: []
 [debug] &amp#27;[35m[GENERIC]&amp#27;[39m Responding to client with driver.getStatus() result: {"build":{"version":"1.22.3"}}
-&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39Server started
-m&amp#27;
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[Server started
+32
 ************** Starting Test: verifyAndSearchTheCheapestFlightForTravel *****************
 
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Sep 07, 2022 9:38:59 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+Sep 07, 2022 10:27:19 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
-Sep 07, 2022 9:39:01 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
+Sep 07, 2022 10:27:20 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
 INFO: Scenario 1: Select Language and Country
-Sep 07, 2022 9:39:02 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:21 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Select language : English
-Sep 07, 2022 9:39:02 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:21 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Title validation : Welcome traveller!
-Sep 07, 2022 9:39:02 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:22 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Get country name : United Arab Emirates
-Sep 07, 2022 9:39:02 AM com.almosafer.automation.base.BaseCommonActions click
+Sep 07, 2022 10:27:22 AM com.almosafer.automation.base.BaseCommonActions click
 INFO: Click on United Arab Emirates from list of countries
-Sep 07, 2022 9:39:03 AM com.almosafer.automation.base.BaseCommonActions click
+Sep 07, 2022 10:27:23 AM com.almosafer.automation.base.BaseCommonActions click
 INFO: Click on Continue button
-Sep 07, 2022 9:39:03 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
+Sep 07, 2022 10:27:23 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
 INFO: Scenario 2: Navigate to flights-home screen
-Sep 07, 2022 9:39:09 AM com.almosafer.automation.base.BaseCommonActions click
+Sep 07, 2022 10:27:27 AM com.almosafer.automation.base.BaseCommonActions click
 INFO: Closing the popup
-Sep 07, 2022 9:39:15 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:32 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Title validation : Let’s book your next trip
-Sep 07, 2022 9:39:15 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:32 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Choose the travel option : Flights
-Sep 07, 2022 9:39:15 AM com.almosafer.automation.base.BaseCommonActions click
+Sep 07, 2022 10:27:32 AM com.almosafer.automation.base.BaseCommonActions click
 INFO: Click on Flights in home screen
-Sep 07, 2022 9:39:15 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
+Sep 07, 2022 10:27:32 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
 INFO: Scenario 3: Enter From and To Airport code along with mandatory validations
-Sep 07, 2022 9:39:16 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:34 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Title validation : Search flights
-Sep 07, 2022 9:39:17 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:34 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Trip option  : Round-trip
-Sep 07, 2022 9:39:17 AM com.almosafer.automation.base.BaseCommonActions click
+Sep 07, 2022 10:27:34 AM com.almosafer.automation.base.BaseCommonActions click
 INFO: Click on Origin field
-Sep 07, 2022 9:39:18 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:35 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Title validation : Search Origin
-Sep 07, 2022 9:39:19 AM com.almosafer.automation.base.BaseCommonActions clear
+Sep 07, 2022 10:27:35 AM com.almosafer.automation.base.BaseCommonActions clear
 INFO: Clear the entered text
-Sep 07, 2022 9:39:20 AM com.almosafer.automation.base.BaseCommonActions sendKeys
-INFO: Enter Airport Code : DXB
-Sep 07, 2022 9:39:23 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Text of Origin Airport Code in the shown list : DXB
-Sep 07, 2022 9:39:23 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Selected Origin Airport Location name  : Dubai International Airport
-Sep 07, 2022 9:39:23 AM com.almosafer.automation.base.BaseCommonActions click
+Sep 07, 2022 10:27:37 AM com.almosafer.automation.base.BaseCommonActions sendKeys
+INFO: Enter Airport Code : RUH
+Sep 07, 2022 10:27:40 AM com.almosafer.automation.base.BaseCommonActions getText
+INFO: Text of Origin Airport Code in the shown list : RUH
+Sep 07, 2022 10:27:40 AM com.almosafer.automation.base.BaseCommonActions getText
+INFO: Selected Origin Airport Location name  : King Khaled International Airport
+Sep 07, 2022 10:27:40 AM com.almosafer.automation.base.BaseCommonActions click
 INFO: Selected the Origin Airport Code
-Sep 07, 2022 9:39:25 AM com.almosafer.automation.base.BaseCommonActions getText
+Sep 07, 2022 10:27:41 AM com.almosafer.automation.base.BaseCommonActions getText
 INFO: Title validation : Search Destination
-Sep 07, 2022 9:39:25 AM com.almosafer.automation.base.BaseCommonActions clear
+Sep 07, 2022 10:27:41 AM com.almosafer.automation.base.BaseCommonActions clear
 INFO: Clear the entered text
-Sep 07, 2022 9:39:26 AM com.almosafer.automation.base.BaseCommonActions sendKeys
+Sep 07, 2022 10:27:42 AM com.almosafer.automation.base.BaseCommonActions sendKeys
 INFO: Enter Airport Code : KHI
-Sep 07, 2022 9:39:29 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Text of Origin Airport Code in the shown list : KHI
-Sep 07, 2022 9:39:29 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Departure Airport name  : Jinnah International Airport
-Sep 07, 2022 9:39:29 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Selected the Destination Airport Code
-Sep 07, 2022 9:39:31 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Selected Origin Airport Name and Code  : DXB - Dubai International Airport
-Sep 07, 2022 9:39:31 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Selected Departure Airport Name and Code  : KHI - Jinnah International Airport
-Sep 07, 2022 9:39:31 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
-INFO: Scenario 4: Select the Departure and Return date along with mandatory validations
-Sep 07, 2022 9:39:31 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Label name : Departure date
-Sep 07, 2022 9:39:31 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Departure date initial value : 08 Sep, 2022
-Sep 07, 2022 9:39:32 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Label name : Return date
-Sep 07, 2022 9:39:32 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Return date initial value : 09 Sep, 2022
-Sep 07, 2022 9:39:32 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Departure date
-Sep 07, 2022 9:39:33 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Title validation : Select dates
-Sep 07, 2022 9:39:43 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate Return tab text : Select return date
-Sep 07, 2022 9:39:48 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Departure date text : 15 January 2023
-Sep 07, 2022 9:39:48 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Departure Day text : Sunday
-Sep 07, 2022 9:39:48 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Return date text : 20 March 2023
-Sep 07, 2022 9:39:48 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Return Day text : Monday
-Sep 07, 2022 9:39:48 AM com.almosafer.automation.base.BaseCommonActions isDisplayed
-INFO: Confirm button displayed : true
-Sep 07, 2022 9:39:49 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Trip option text : Round-trip
-Sep 07, 2022 9:39:49 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Confirm button
-Sep 07, 2022 9:39:50 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Departure date selected value : 15 Jan, 2023
-Sep 07, 2022 9:39:50 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Return date selected value : 20 Mar, 2023
-Sep 07, 2022 9:39:50 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
-INFO: Scenario 5: Add the number of travellers along with mandatory validations
-Sep 07, 2022 9:39:50 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Label validation : Passengers and cabin class
-Sep 07, 2022 9:39:51 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Default traveller : 1 Adult - Economy
-Sep 07, 2022 9:39:51 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Passengers and Cabin class option
-Sep 07, 2022 9:39:52 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Passengers and Cabin Class title : Passengers and cabin class
-Sep 07, 2022 9:39:52 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Adults section : Adults
-Sep 07, 2022 9:39:52 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Adults default count : 1
-Sep 07, 2022 9:39:52 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Children section : Children
-Sep 07, 2022 9:39:52 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Children default count : 0
-Sep 07, 2022 9:39:52 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Children plus button to increment the count to 1
-Sep 07, 2022 9:39:53 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Children plus button to increment the count to 2
-Sep 07, 2022 9:39:54 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Children new count : 2
-Sep 07, 2022 9:39:54 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Infants section : Infants
-Sep 07, 2022 9:39:54 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Infants default count : 0
-Sep 07, 2022 9:39:54 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Infants plus button to increment the count to 1
-Sep 07, 2022 9:39:55 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Infants new count : 1
-Sep 07, 2022 9:39:55 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Cabin class selection : Economy
-Sep 07, 2022 9:39:55 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Apply Button
-Sep 07, 2022 9:39:57 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Total Traveller and cabin class : 4 Travellers - Economy
-Sep 07, 2022 9:39:57 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
-INFO: Scenario 6: Navigate to Flight Details screen and do the mandatory validations
-Sep 07, 2022 9:39:57 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Find Flights Button
-Sep 07, 2022 9:39:58 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Flight Detail : DXB
-Sep 07, 2022 9:39:58 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Flight Detail : KHI
-Sep 07, 2022 9:39:58 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Flight Detail : - Round-trip
-Sep 07, 2022 9:40:13 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Subtitle : 4 Travellers - 15 Jan - 20 Mar
-Sep 07, 2022 9:40:13 AM com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel verifyAndSearchTheCheapestFlightForTravel
-INFO: Scenario 7: Sort the lowest price and compare with first flight fare with starting price
-Sep 07, 2022 9:40:13 AM com.almosafer.automation.base.BaseCommonActions isDisplayed
-INFO: Is displayed : true
-Sep 07, 2022 9:40:14 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate text : Sort by
-Sep 07, 2022 9:40:14 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Sort by
-Sep 07, 2022 9:40:15 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate the title in bottom layer : Sort by
-Sep 07, 2022 9:40:15 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate the option in bottom layer : Lowest price
-Sep 07, 2022 9:40:15 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Lowest Price
-Sep 07, 2022 9:40:16 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate selected option : Lowest price
-Sep 07, 2022 9:40:16 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate label : Cheapest
-Sep 07, 2022 9:40:17 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: First flight fare details : AED 2,775
-Sep 07, 2022 9:40:19 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Compare the cheapest flight price with multiple flight price AED 2775 < : AED 2,808
-Sep 07, 2022 9:40:22 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Compare the cheapest flight price with multiple flight price AED 2775 < : AED 3,285
-Sep 07, 2022 9:40:25 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Compare the cheapest flight price with multiple flight price AED 2775 < : AED 3,395
-Sep 07, 2022 9:40:25 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate text : Filters
-Sep 07, 2022 9:40:25 AM com.almosafer.automation.base.BaseCommonActions click
-INFO: Click on Filters
-Sep 07, 2022 9:40:26 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Filters Title : Filters
-Sep 07, 2022 9:40:26 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Validate filter option : Price range
-Sep 07, 2022 9:40:26 AM com.almosafer.automation.base.BaseCommonActions getText
-INFO: Starting flight fare : AED 2,775.00
 ]]></system-err>
   </testcase>
 </testsuite>

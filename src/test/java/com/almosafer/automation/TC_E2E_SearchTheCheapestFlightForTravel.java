@@ -1,7 +1,7 @@
 package com.almosafer.automation;
 
 import com.almosafer.automation.base.BaseTest;
-import com.almosafer.automation.screens.*;
+import com.almosafer.automation.elementRepositories.*;
 import org.testng.annotations.Test;
 
 
