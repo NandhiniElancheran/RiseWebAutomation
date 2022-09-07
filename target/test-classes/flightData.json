@@ -1,0 +1,22 @@
+{
+  "flightDetails": {
+    "country": "United Arab Emirates",
+    "businessOption": "Flights",
+    "originAirCode": [
+      "DXB","AUH", "SHJ", "JED", "RUH"
+    ],
+    "destinationAirCode": [
+      "AMM", "CAI", "DEL", "KHI", "MAA"
+    ],
+    "departureDate": "15",
+    "departureMonth": "January",
+    "departureYear": "2023",
+    "returnDate": "20",
+    "returnMonth" : "March",
+    "returnYear" : "2023",
+    "adultsCount" : "1",
+    "childrenCount" : "2",
+    "infantsCount" : "1",
+    "cabinClass" : "Economy"
+  }
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="99506" started-at="2022-09-07T09:38:47 GST" finished-at="2022-09-07T09:40:27 GST">
+    <groups>
+    </groups>
+    <test name="Almosafer_Native_App_Automation" duration-ms="99506" started-at="2022-09-07T09:38:47 GST" finished-at="2022-09-07T09:40:27 GST">
+      <class name="com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel@69a3d1d]" name="beforeSuite" is-config="true" duration-ms="2078" started-at="2022-09-07T09:38:45 GST" finished-at="2022-09-07T09:38:47 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel@69a3d1d]" name="beforeTest" is-config="true" duration-ms="11791" started-at="2022-09-07T09:38:47 GST" finished-at="2022-09-07T09:38:59 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel@69a3d1d]" name="beforeMethod" is-config="true" duration-ms="1570" started-at="2022-09-07T09:38:59 GST" finished-at="2022-09-07T09:39:01 GST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel.verifyAndSearchTheCheapestFlightForTravel()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="verifyAndSearchTheCheapestFlightForTravel()[pri:0, instance:com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel@69a3d1d]" name="verifyAndSearchTheCheapestFlightForTravel" duration-ms="85765" started-at="2022-09-07T09:39:01 GST" description="Almosafer Native app: Validation for the whole process of a traveler/airline interaction." finished-at="2022-09-07T09:40:26 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAndSearchTheCheapestFlightForTravel -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel@69a3d1d]" name="afterMethod" is-config="true" duration-ms="121" started-at="2022-09-07T09:40:26 GST" finished-at="2022-09-07T09:40:27 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel@69a3d1d]" name="quit" is-config="true" duration-ms="240" started-at="2022-09-07T09:40:27 GST" finished-at="2022-09-07T09:40:27 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel@69a3d1d]" name="afterSuite" is-config="true" duration-ms="3894" started-at="2022-09-07T09:40:27 GST" finished-at="2022-09-07T09:40:31 GST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel -->
+    </test> <!-- Almosafer_Native_App_Automation -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

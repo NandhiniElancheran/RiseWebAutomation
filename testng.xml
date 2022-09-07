@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="false">
+    <listeners>
+        <listener class-name="com.almosafer.automation.listeners.TestListener"/>
+        <listener class-name="com.almosafer.automation.listeners.retry_mechanism.RetryTransform"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="Almosafer_Native_App_Automation">
+        <classes>
+            <class name="com.almosafer.automation.TC_E2E_SearchTheCheapestFlightForTravel"/>
+        </classes>
+    </test>
+</suite>
