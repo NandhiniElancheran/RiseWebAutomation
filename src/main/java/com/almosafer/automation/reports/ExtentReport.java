@@ -9,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ExtentReport {
-    final static String filePath = "Extent.html";
+    final static String filePath = "ExtentReport.html";
     static ExtentReports extentReports;
     static Map extentTestMap = new HashMap();
 
