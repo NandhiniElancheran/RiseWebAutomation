@@ -1,4 +1,4 @@
-# AlMOSAFER-UI-Automation
+# RISE-Web-Automation
 
 ## Table of Content
 - [Description](#description)
@@ -25,8 +25,7 @@
 ## PreRequisite
  - Java 8
  - Maven
- - Appium 1.22.3
- - Android SDK
+ - Selenium 4
  - Hard disc space > 10GB
  
 ## Run-Command
