@@ -1,0 +1,10 @@
+{
+  "userLogin": {
+    "validUser": "standard_user",
+    "lockedUser": "locked_out_user",
+    "problemUser": "problem_user",
+    "performanceGlitchUser": "performance_glitch_user",
+    "password": "secret_sauce",
+    "noOfProduct": "3"
+  }
+}
